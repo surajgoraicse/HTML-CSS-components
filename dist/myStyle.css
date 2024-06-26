@@ -2,4 +2,11 @@
     -webkit-box-shadow: 0px 8px 23px 7px rgba(0,0,0,0.46);
     -moz-box-shadow: 0px 8px 23px 7px rgba(0,0,0,0.46);
     box-shadow: 0px 8px 23px 7px rgba(0,0,0,0.46);
+
+
+}
+.myshadow2{
+    -webkit-box-shadow: inset 0px 21px 22px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 0px 21px 22px 0px rgba(0,0,0,0.34);
+    box-shadow: inset 0px 21px 22px 0px rgba(0,0,0,0.34);
 }
