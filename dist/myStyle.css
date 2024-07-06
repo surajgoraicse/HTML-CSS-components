@@ -10,3 +10,12 @@
     -moz-box-shadow: inset 0px 21px 22px 0px rgba(0,0,0,0.34);
     box-shadow: inset 0px 21px 22px 0px rgba(0,0,0,0.34);
 }
+
+
+.side-bar-open:active{
+    transform: translateX(0px);
+    transition: transform .2s ease-in;
+}
+.side-bar{
+    transform: translateX(300px);
+}
