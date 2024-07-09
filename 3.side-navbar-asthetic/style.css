@@ -150,20 +150,22 @@ ul li .item p{
 }
 ul li .item ~ p{
     display: none;
-    position: relative;
-    left: 25px;
+    position: absolute;
+    left: 100px;
     color: #000;
-    background: #fff;
+    background-color: #ffffff;
     padding: 10px 15px;    
     border-radius: 10px;
     font-weight: 500;
-    z-index: 20;
+    z-index: 10;
+
 }
 .sidebar.active ul li .item p{
     display: block;
 }
 .sidebar li .item:hover + p{
     display: block;
+
 }
 .sidebar.active li .item + p{
     display: none;
@@ -177,7 +179,7 @@ ul li .item ~ p{
     width: calc(100% - 80px);
     transition: all 0.5s ease;
     color: #fff;
-    z-index: 10;
+    z-index: -1;
     
 }
 .sidebar.active ~ .main-content{
